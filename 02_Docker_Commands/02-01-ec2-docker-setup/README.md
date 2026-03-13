@@ -68,6 +68,8 @@ sudo dnf install docker -y
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker ec2-user
+sudo usermod -aG docker $USER
+newgrp docker
 ```
 
 > **Logout and reconnect** to apply the docker group permissions.
