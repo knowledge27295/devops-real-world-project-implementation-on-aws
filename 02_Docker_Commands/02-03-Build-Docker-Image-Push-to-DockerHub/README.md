@@ -216,11 +216,14 @@ docker tag retail-store-sample-ui:2.0.0 YOUR_DOCKER_USERNAME/mynginx-custom:2.0.
 # Example with 'stacksimplify':
 docker tag retail-store-sample-ui:2.0.0 stacksimplify/retail-store-sample-ui:2.0.0
 
+ docker tag stacksimplify/retail-store-sample-ui:2.0.0 saikumar27295/retail-store-sample-ui:2.0.0
+
 # Push the Docker image to Docker Hub
 docker push YOUR_DOCKER_USERNAME/retail-store-sample-ui:2.0.0
 
 # Example with 'stacksimplify':
 docker push stacksimplify/retail-store-sample-ui:2.0.0
+docker push saikumar27295/retail-store-sample-ui:2.0.0
 
 # IMPORTANT NOTE:
 # Replace YOUR_DOCKER_USERNAME with your actual Docker Hub username.
