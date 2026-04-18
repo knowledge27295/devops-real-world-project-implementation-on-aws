@@ -77,6 +77,7 @@ ls -lrt
 
 # Command to Make That Change via Terminal (No Manual Editing)
 sed -i 's/Secret Shop<\/span>/Secret Shop - V2 Version<\/span>/' home.html
+sed -i 's/Secret Shop/Secret Shop - V2 Version/g' home.html (Recommended)
 
 # Verify It Worked:
 grep 'Secret Shop' home.html
